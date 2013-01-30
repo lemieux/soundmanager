@@ -1,0 +1,26 @@
+{
+  "author": "Marc-Antoine Lemieux",
+  "name": "soundmanager",
+  "description": "Simple sound manager that wraps the AudioAPI",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+	"type": "git",
+	"url": ""
+  },
+  "engines": {
+	"node": "~0.6.10 || 0.8 || 0.9"
+  },
+  "scripts": {
+	"start": "brunch watch --server",
+	"test": "brunch test"
+  },
+  "dependencies": {
+	"javascript-brunch": ">= 1.0 < 1.5",
+  "coffee-script-brunch": ">= 1.0 < 1.6",
+
+	"uglify-js-brunch": ">= 1.0 < 1.5"
+  },
+  "devDependencies": {
+  }
+}
